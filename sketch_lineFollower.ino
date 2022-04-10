@@ -57,7 +57,7 @@ else if(RIGHT_SENSOR>21 && LEFT_SENSOR<21) //RIGHT
               analogWrite(PWMmotor2, valuePWM2);
 }
  
-else if(RIGHT_SENSOR>21 && LEFT_SENSOR>21) //BACK
+else if(RIGHT_SENSOR>21 && LEFT_SENSOR>21) //STOP
 {
               digitalWrite(Motor1, LOW);
               digitalWrite(Motor2, LOW);
